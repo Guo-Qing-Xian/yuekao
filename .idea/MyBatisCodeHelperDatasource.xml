@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.guoqingxian.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/gqx-yuekao-dao/src/main/java" />
+        <option name="javaModelPackage" value="com.guoqingxian.model" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/gqx-yuekao-model/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="gqx-yuekao-model" />
+        <option name="mapperAnnotaion" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="gqx-yuekao-model">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.guoqingxian.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/gqx-yuekao-dao/src/main/java" />
+                  <option name="javaModelPacakge" value="com.guoqingxian.model" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/gqx-yuekao-model/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.guoqingxian.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/gqx-yuekao-service/src/main/java" />
+                  <option name="javaServicePackage" value="com.guoqingxian.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/gqx-yuekao-service/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/gqx-yuekao-web/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="yuekao:t_activity">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TActivity" />
+                  <option name="moduleName" value="gqx-yuekao-model" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="yuekao:t_activity _server">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="TActivity Server" />
+                  <option name="moduleName" value="gqx-yuekao-model" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="yuekao:t_activity_server">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="TActivityServer" />
+                  <option name="moduleName" value="gqx-yuekao-model" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="yuekao:t_server">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TServer" />
+                  <option name="moduleName" value="gqx-yuekao-model" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="yuekao:t_type">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TType" />
+                  <option name="moduleName" value="gqx-yuekao-model" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="userMybatisPlus" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/gqx-yuekao-web/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
